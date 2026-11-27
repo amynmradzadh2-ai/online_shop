@@ -1,5 +1,8 @@
-from django.http import HttpResponse
-from django.shortcuts import render
 
-def home(request):
-    return HttpResponse("Welcome to our online shop!")
+
+
+
+def salam():
+    print("salam")
+if __name__ == "__main__":
+    salam()
