@@ -8,3 +8,6 @@ class userRegisterView(View):
 
 def morq():
     print("morq")
+def abass ali(
+    print("an")
+)
