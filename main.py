@@ -5,3 +5,6 @@ class userRegisterView(View):
     def dispatch(self, request, *args, **kwargs):
         if request.user.is_authenticated:
             return redirect('Game:home')
+
+def morq():
+    print("morq")
